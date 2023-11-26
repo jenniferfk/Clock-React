@@ -1,0 +1,192 @@
+.glowing-item{
+    -webkit-box-shadow:0px 0px 88px 20px rgba(75,83,242,0.64);
+    -moz-box-shadow: 0px 0px 88px 20px rgba(75,83,242,0.64);
+    box-shadow: 0px 0px 88px 20px rgba(75,83,242,0.64);
+}
+.css-button-sliding-to-left {
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: none;
+    color: rgb(3, 3, 76);
+  }
+  .css-button-sliding-to-left:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(3, 3, 97,0.9);
+  }
+  .capitalsselect{
+    width:100%;
+    margin-bottom: 10px;
+    color:rgb(3, 3, 97);
+    font-weight:bold;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+  }
+  
+  .country-cell {
+    padding: 8px;
+    border: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      width: 100%; 
+    }
+  
+    .country-cell {
+      display:flex;
+      width: 100%; 
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
+
+.rows {
+  width: 60%;
+}
+.removebttn{
+  border:none;
+  background:none;
+  text-align: right;
+  font-weight: bold;
+}
+.time{
+  font-size:large;
+  font-weight:bold;
+}
+.digit {
+  display: inline-block;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 4px;
+}
+
+.digit.square {
+  border: 1px solid #000;
+}
+.swdiv{
+  text-align: center;
+}
+
+.swh2{
+  font-size: 6rem;
+}
+@media (max-width: 768px) {
+  .swh2{
+    font-size: 3rem;
+  }
+}
+.swdiv p{
+  font-size:4rem;
+}
+.css-button-shadow-border-sliding--sand {
+  min-width: 130px;
+  height: 40px;
+  color: rgb(3, 3, 97);
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #adb5bd;
+ z-index: 1;
+ margin-right: 2%;
+ margin-top:1%;
+}
+.css-button-shadow-border-sliding--sand:hover:after {
+  width: 100%;
+  left: 0;
+}
+.css-button-shadow-border-sliding--sand:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #ced4da;
+  right: 0;
+}
+.css-button-shadow-border-sliding--sand:active {
+  top: 2px;
+}
+.timerdiv,.timerbttndiv,.timerstartdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.centered-table {
+  border: 0;
+  text-align:center;
+  font-size: large;
+}
+.centered-table td {
+  padding: 7px;
+}
+.css-button-shadow--sand {
+  min-width: 130px;
+  height: 40px;
+  color: rgb(3, 3, 97);
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #ced4da;
+  
+  box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+}
+.css-button-shadow--sand:active {
+  box-shadow: 0 10px 2px -3px #ccc, 0 10px 5px 1px #ccc, 0 10px 7px 1px #ccc;
+}
+.selecttimer{
+  border-radius: 5px;
+  color:rgb(3,3,97);
+  font-weight:bold;
+}
+.optionstimer{
+  font-weight: bold;
+}
+.timerstartdiv{
+  font-size: 3rem;
+}
