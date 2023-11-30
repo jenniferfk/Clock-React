@@ -2,26 +2,10 @@ import React from 'react';
 import {useEffect,useState} from "react";
 import './navcss.css';
 import Select from 'react-select';
-
-function loadBootstrap() {
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css';
-  document.head.appendChild(link);
-
-  const script2 = document.createElement('script');
-  script2.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
-  document.head.appendChild(script2);
-
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js';
-  document.head.appendChild(script);
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function WorldClock() {
-    useEffect(() => {
-        loadBootstrap();
-      }, []);
       const continentsData = [
         {
           name: 'Africa',
